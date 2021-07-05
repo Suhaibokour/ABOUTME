@@ -1,0 +1,18 @@
+body{background-color: burlywood;
+}
+header{padding: 20px;}
+h1{color: rgb(84, 149, 170);
+display: inline-block;
+margin-bottom: 10px;
+font-size: 40px;
+}
+img{
+    float: right;
+    padding: 30px;
+}
+div{
+    padding: 30px;
+}
+p{ font-size: 25px;
+    color: indianred;
+}
