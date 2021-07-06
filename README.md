@@ -22,7 +22,7 @@ I have built this page using HTML,CSS and JS. This page is my lab02's asignment.
 
 1. Day1: 
 
-###### Pedagogy Vs Andragogy 
+##### **Pedagogy Vs Andragogy**
 pedagogy is a child-focused teaching approach, whereas andragogy an adult-focused teaching approach or, pedagogy is the art and science of helping kids learn, whereas andragogy is the art and science of helping adults learn.
 
 
