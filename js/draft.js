@@ -1,5 +1,5 @@
 'use strict'
-function question1(){
+
 let userName = prompt("Hello friend, it would please us if you inter your name here");
 console.log(userName);
 
@@ -24,9 +24,7 @@ if (q1 == "yes") {
 } else {
     alert("Let us go to the next one")
 }
-}
-question1();
-function question2(){
+
 let q2 = prompt("Do you think that my age is above 30?(yes,no)")
 q2 = q2.toLowerCase();
 if (q2 == "no") {
@@ -37,9 +35,7 @@ if (q2 == "no") {
 } else {
     alert("Let us go to the next one")
 }
-}
-question2();
-function question3(){
+
 let q3 = prompt("Do you think that I'm married?(yes,no)")
 q3 = q3.toLowerCase();
 if (q3 == "yes") {
@@ -50,9 +46,7 @@ if (q3 == "yes") {
 } else {
     alert("Let us go to the next one")
 }
-}
-question3();
-function question4(){
+
 let q4 = prompt("Do you think that we can be firends?(yes,no)")
 q4 = q4.toLowerCase();
 if (q4 == "yes") {
@@ -61,10 +55,9 @@ if (q4 == "yes") {
 } else {
     alert("This is unfortionate, but anyway it was nice to chat with you)")
 }
-}
-question4();
 
-function question5(){
+
+
 for(let i=1;i<=4;i++){
 let num=prompt("I would like you to guess a number between (1-5)")
 let number=parseInt(num);
@@ -83,11 +76,9 @@ if(number<=2){
     comsole.log(number);
 }
 }
-}
-question5();
 
 
-function question6(){
+
 let movies = ['the shawshank redemption', 'the godfather', 'godfather part two', 'forrest gump', 'spirited away'];
 
 console.log(movies.length);
@@ -116,8 +107,7 @@ alert("You score is "+score+"/6")
 alert("My favorite movies are ('the shawshank redemption', 'the godfather', 'godfather part two', 'forrest gump', 'spirited away') ")
 
 
-}
-question6();
+
 
 
 
