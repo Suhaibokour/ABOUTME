@@ -1,5 +1,5 @@
 'use strict'
-
+function question1(){
 let userName = prompt("Hello friend, it would please us if you inter your name here");
 console.log(userName);
 
@@ -24,6 +24,8 @@ if (q1 == "yes") {
 } else {
     alert("Let us go to the next one")
 }
+}
+question1();
 
 let q2 = prompt("Do you think that my age is above 30?(yes,no)")
 q2 = q2.toLowerCase();
