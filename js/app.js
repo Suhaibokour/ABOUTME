@@ -87,7 +87,7 @@ if(number<=2){
 question5();
 
 
-
+function question6(){
 let movies = ['the shawshank redemption', 'the godfather', 'godfather part two', 'forrest gump', 'spirited away'];
 
 console.log(movies.length);
@@ -116,7 +116,8 @@ alert("You score is "+score+"/6")
 alert("My favorite movies are ('the shawshank redemption', 'the godfather', 'godfather part two', 'forrest gump', 'spirited away') ")
 
 
-
+}
+question6();
 
 
 
