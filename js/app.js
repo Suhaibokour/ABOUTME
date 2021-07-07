@@ -64,7 +64,7 @@ if (q4 == "yes") {
 }
 question4();
 
-
+function question5(){
 for(let i=1;i<=4;i++){
 let num=prompt("I would like you to guess a number between (1-5)")
 let number=parseInt(num);
@@ -83,6 +83,8 @@ if(number<=2){
     comsole.log(number);
 }
 }
+}
+question5();
 
 
 
