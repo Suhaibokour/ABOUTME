@@ -26,7 +26,7 @@ if (q1 == "yes") {
 }
 }
 question1();
-
+function question2(){
 let q2 = prompt("Do you think that my age is above 30?(yes,no)")
 q2 = q2.toLowerCase();
 if (q2 == "no") {
@@ -37,7 +37,8 @@ if (q2 == "no") {
 } else {
     alert("Let us go to the next one")
 }
-
+}
+question2();
 let q3 = prompt("Do you think that I'm married?(yes,no)")
 q3 = q3.toLowerCase();
 if (q3 == "yes") {
