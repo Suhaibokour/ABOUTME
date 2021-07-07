@@ -52,7 +52,7 @@ if (q3 == "yes") {
 }
 }
 question3();
-
+function question4(){
 let q4 = prompt("Do you think that we can be firends?(yes,no)")
 q4 = q4.toLowerCase();
 if (q4 == "yes") {
@@ -61,7 +61,8 @@ if (q4 == "yes") {
 } else {
     alert("This is unfortionate, but anyway it was nice to chat with you)")
 }
-
+}
+question4();
 
 
 for(let i=1;i<=4;i++){
