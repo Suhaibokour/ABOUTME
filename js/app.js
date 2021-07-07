@@ -39,6 +39,7 @@ if (q2 == "no") {
 }
 }
 question2();
+function question3(){
 let q3 = prompt("Do you think that I'm married?(yes,no)")
 q3 = q3.toLowerCase();
 if (q3 == "yes") {
@@ -49,6 +50,8 @@ if (q3 == "yes") {
 } else {
     alert("Let us go to the next one")
 }
+}
+question3();
 
 let q4 = prompt("Do you think that we can be firends?(yes,no)")
 q4 = q4.toLowerCase();
