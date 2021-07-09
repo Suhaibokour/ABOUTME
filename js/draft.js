@@ -1,7 +1,7 @@
 'use strict'
 
 let userName = prompt("Hello friend, it would please us if you inter your name here");
-console.log(userName);
+
 
 let ready = prompt(userName + " are you ready to start a guessing game in which you are going to be asked a few questions about me>( yes . no )")
 
@@ -73,7 +73,7 @@ if(number<=2){
 }else if(number>=4){
     alert("Too high!");
 }else{
-    comsole.log(number);
+    
 }
 }
 
@@ -81,7 +81,7 @@ if(number<=2){
 
 let movies = ['the shawshank redemption', 'the godfather', 'godfather part two', 'forrest gump', 'spirited away'];
 
-console.log(movies.length);
+
 
 for (let i = 0; i < 6; i++) {
     let favMovie = prompt("Can you guess one of my top 5 favorite movies?");
@@ -124,33 +124,6 @@ alert("My favorite movies are ('the shawshank redemption', 'the godfather', 'god
 
 
 
-// for (let j = 0; j <= 5; j++) {
-
-//     for (let i = 0; i <= movies.length; i++) {
-//         let favMovie = prompt("Can you guess one of my top 5 favorite movies?");
-
-//         // favMovie=favMovie.toLowerCase();
-
-//         if (favMovie == movies[i]) {
-//             alert("this is correct")
-//             // j = 6;
-//             break;
-
-//         } else {
-
-//             alert("wrong answer");
-//             favMovie = prompt("Can you guess one of my top 5 favorite movies?");
-//         }
-
-//         // else if (favMovie != movies[i]) {
-//         //     alert("Try again!")
-//         // favMovie=prompt("Can you guess one of my top 5 favorite movies?");
-
-//         // if (j < 5) {
-//         //     continue;
-//         // }
-//     }
-// }
 
 
 
